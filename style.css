@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(0, 255, 34);
+}
+
+.Upper{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.Container{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+
+    box-shadow: 0 8px 20px black;
+}
+
+.Input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border-width: 1.5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+
+    height: 40px;
+    width: 215px;
+
+    font-size: larger;
+}
+
+.Enter{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 15px;
+    border-style: none;
+    background: linear-gradient(45deg, blue, purple);
+    color: white;
+    height: 45px;
+    width: 100px;
+    box-shadow: 0 4px 15px black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Enter:hover{
+    opacity: 0.9;
+    background: linear-gradient(45deg,  purple, blue);
+        box-shadow: 0 8px 20px black;
+}
+
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#myIcon{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
